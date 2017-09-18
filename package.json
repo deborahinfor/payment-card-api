@@ -1,0 +1,26 @@
+{
+  "name": "payment-card-api",
+  "version": "1.0.0",
+  "description": "This is a node.js PaymentCard API, powered by Express that provides the main functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deborahinfor/payment-card-api.git"
+  },
+  "author": "deborah lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deborahinfor/payment-card-api/issues"
+  },
+  "homepage": "https://github.com/deborahinfor/payment-card-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "express-load": "^1.1.16",
+    "express-validator": "^4.1.1"
+  }
+}
